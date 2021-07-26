@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
+import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
 import Home from '@material-ui/icons/Home';
 
 const Sidebar = () => {
@@ -19,11 +20,19 @@ const Sidebar = () => {
               </div>
             </div>
           </Link>
-          <Link href="/social">
+          <Link href="/product">
             <div className="">
               <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                 <SupervisorAccountIcon className="text-gray-300" />
-                <a>Kumpulan Judul Skripsi</a>
+                <a>Produk</a>
+              </div>
+            </div>
+          </Link>
+          <Link href="/book">
+            <div className="">
+              <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+                <LibraryBooksIcon className="text-gray-300" />
+                <a>Buku</a>
               </div>
             </div>
           </Link>

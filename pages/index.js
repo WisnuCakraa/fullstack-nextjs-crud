@@ -2,12 +2,8 @@ import Pages from './components/Pages';
 
 export default function Home() {
   return (
-    <Pages className="px-4">
-      <div>
-        <div>
-          <p></p>
-        </div>
-      </div>
+    <Pages className="p-8 w-full">
+      <p>Home</p>
     </Pages>
   )
 }
