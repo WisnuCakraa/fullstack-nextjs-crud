@@ -41,7 +41,7 @@ export default function ModalForm(props) {
                 />
               </div>
               <div className="pt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-1 md:grid-cols-1 md:gap-8">
-                <TextField name="synopsis" onChange={handleOnChange} onChange={handleOnChange} value={openWithData?.synopsis} label="Synopsis" variant="outlined" multiline minRows={3} maxRows={5} />
+                <TextField name="synopsis" onChange={handleOnChange} value={openWithData?.synopsis} label="Synopsis" variant="outlined" multiline minRows={3} maxRows={5} />
               </div>
               <div className="pt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-1 md:grid-cols-1 md:gap-8">
                 <TextField name="content" onChange={handleOnChange} value={openWithData?.content} label="Content" variant="outlined" multiline minRows={3} maxRows={5} />
