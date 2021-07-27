@@ -24,7 +24,7 @@ const Sidebar = () => {
             <div className="">
               <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                 <SupervisorAccountIcon className="text-gray-300" />
-                <a>Produk</a>
+                <a href="/product">Produk</a>
               </div>
             </div>
           </Link>
@@ -32,7 +32,7 @@ const Sidebar = () => {
             <div className="">
               <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                 <LibraryBooksIcon className="text-gray-300" />
-                <a>Buku</a>
+                <a>Komik</a>
               </div>
             </div>
           </Link>

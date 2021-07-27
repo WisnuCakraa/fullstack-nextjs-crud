@@ -7,13 +7,15 @@ export const getNovels = () => {
 }
 
 export const addNovels = (data) => {
-  return axios.post(`${apiUrl}/post/create`, data?.params)
+  console.log(data);
+  return axios.post(`${apiUrl}/post/create`, data)
 }
 
 export const updateNovels = (data) => {
-  return axios.put(`${apiUrl}/post/update/${data.id}`, data?.params)
+  console.log(data);
+  return axios.put(`${apiUrl}/post/update/${data.id}`, data)
 }
 
 export const deleteNovels = (data) => {
-  return axios.delete(`${apiUrl}/post/delete${data}`)
+  return axios.delete(`${apiUrl}/post/delete/${data}`)
 }
