@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux';
 import { getNovels, deleteNovels, addNovels, updateNovels } from './redux/actions/novels';
 
@@ -10,7 +10,7 @@ import AddIcon from '@material-ui/icons/Add';
 import ModalForm from './components/ModalForm';
 import TableProduct from './components/TableProduct';
 
-export default function product() {
+export default function Product() {
   const [openModal, setOpenModal] = useState(false)
   const [openSnackbar, setOpenSnackbar] = useState(false)
   const [isAdd, setIsAdd] = useState('')
